@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  background: purple !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.2em;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.username {
+  color: white !important;
+}
+
+.email {
+  font-style: italic;
+  color: #ccc !important;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.button-submit {
+  background: teal !important;
+  margin: 1em !important;
+  color: white !important;
+}
+
+.button-clear {
+  background: rgb(63, 63, 49) !important;
+  margin: 1em !important;
+  color: white !important;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
